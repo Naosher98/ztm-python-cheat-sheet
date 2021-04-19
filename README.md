@@ -226,7 +226,7 @@ for row in range(len(mx)):
 [mx[row][col] for row in range(len(mx)) for col in range(len(mx[0]))] # [1,2,3,4,5,6]
 
 # Combine columns with zip and *:
-[x for x in zip(*mx)] # [(1, 3), (2, 4)]
+[x for x in zip(*mx)] # [(1, 4), (2, 5), (3, 6)]
 
 ```
 
